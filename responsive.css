@@ -1,0 +1,59 @@
+@media screen and (max-width:576px) {
+    nav {
+        display: none;
+        ;
+    }
+
+    .header-section {
+        margin: 35px 15px;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+    .site-title {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: rgb(58, 58, 58);
+    }
+
+    .hero-section {
+
+        margin-top: 22px;
+        flex-direction: column-reverse;
+
+    }
+
+    .hero-section-image {
+        background-image: url("/images/Circle\ design.svg");
+        background-size: 100%;
+        margin: 0px;
+        background-repeat: no-repeat;
+
+    }
+
+    .hero-image img {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .hero-section-content h1 {
+        font-size: 2em;
+
+    }
+
+    .hero-section-content {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .hero-section-content p {
+        padding: 15px;
+    }
+}

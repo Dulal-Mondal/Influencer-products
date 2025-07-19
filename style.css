@@ -20,6 +20,10 @@ body {
     max-width: 1440px;
 }
 
+.mobile-nav {
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -62,13 +66,13 @@ ul li a {
 }
 
 .hero-section-content h1 {
-    font-size: 40px;
+    font-size: 3em;
     font-weight: 700;
     color: rgb(58, 58, 58);
 }
 
 .hero-section-content p {
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 600;
     color: rgb(58, 58, 58);
     padding: 15px 70px 15px 0px;
@@ -85,8 +89,7 @@ button {
 .hero-section-image {
     background-image: url("/images/Circle\ design.svg");
     margin: 40px 6px 40px 0px;
-    width: 490;
-    height: 490px;
+    background-size: 100%;
 
     /* background-position: right; */
     background-repeat: no-repeat;
