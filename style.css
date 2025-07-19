@@ -87,7 +87,7 @@ button {
 }
 
 .hero-section-image {
-    background-image: url("/images/Circle\ design.svg");
+    background-image: url("./images/Circle\ design.svg");
     margin: 40px 6px 40px 0px;
     background-size: 100%;
 
@@ -98,5 +98,21 @@ button {
 
 .hero-image {
 
-    padding: 20px 20px;
+    padding: 30px 10px;
+}
+
+/* E-commerce-site */
+
+.e-commerce-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 165px;
+
+}
+
+
+.site-logo img {
+
+    width: 100%;
 }
