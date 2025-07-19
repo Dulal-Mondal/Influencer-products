@@ -62,7 +62,40 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 32px;
-        margin: 50px 40px;
+        margin: 50px 0px;
+        padding: 30px 10px;
+    }
+
+    .popular-collection-card {
+
+        margin: 15px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .featured-products {
+        margin: 0;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .product-content p {
+        padding: 14px;
+        text-align: center;
+    }
+
+    .product-content h2 {
+        margin: 35px 29px 10px 29px;
+    }
+
+    .see-more {
+        margin-top: 20px;
+        margin-right: 20px;
     }
 
 
